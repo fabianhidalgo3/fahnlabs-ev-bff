@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @param token          optional shared secret sent as {@code X-Motor-Token}
  * @param publicPort     gateway port as seen by browsers (emulator link, OCPP URL)
  * @param publicUrl      optional public base URL of the gateway behind a reverse proxy, e.g.
- *                       {@code https://geu.fahnlabs.cl}; when set it replaces host + {@code publicPort}
+ *                       {@code https://ev.fahnlabs.cl}; when set it replaces host + {@code publicPort}
  * @param timeout        timeout of regular calls
  * @param commandTimeout timeout of OCPP commands (remote start/stop, reset)
  */
