@@ -1,0 +1,22 @@
+# Build context is the repository root; only the front and the BFF sources are sent.
+*
+!front/
+!bff/
+
+# Front: sources only (dependencies and build output are produced in the image)
+front/node_modules
+front/dist
+front/.angular
+front/.vscode
+
+# BFF: no build output, no local secrets
+bff/target
+bff/.env
+bff/.env.*
+bff/Dockerfile*
+
+# Never send secrets or VCS/editor files
+**/.env
+**/.git
+**/.idea
+**/*.log
