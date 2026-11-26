@@ -1,11 +1,11 @@
-# ev-bff · Backend for Frontend and AI assistant
+# fahnlabs-ev-bff · Backend for Frontend and AI assistant
 
 Part of **EV yard power control** by FAHNLABS: real-time power allocation for an electric-vehicle charging yard.
 Overview, architecture and deployment: [fahnlabs-ev-deploy](https://github.com/fabianhidalgo3/fahnlabs-ev-deploy).
 
-The BFF is the only API the dashboard ([ev-web](https://github.com/fabianhidalgo3/fahnlabs-ev-web)) talks to. It
+The BFF is the only API the dashboard ([fahnlabs-ev-web](https://github.com/fabianhidalgo3/fahnlabs-ev-web)) talks to. It
 validates requests, relays the engine's live state, builds CSV exports and runs the AI operations assistant. It never
-accesses a database: all data comes from [ev-engine](https://github.com/fabianhidalgo3/fahnlabs-ev-engine).
+accesses a database: all data comes from [fahnlabs-ev-engine](https://github.com/fabianhidalgo3/fahnlabs-ev-engine).
 
 ## Stack
 
